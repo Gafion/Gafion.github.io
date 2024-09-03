@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Styles/main.css">
+    <script src="JavaScript/scripts.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+                publicKey: "_V8QFAgj6QKccYEeG",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <nav>
+        <h1><span>&lt;C/&gt;</span> Christian Colberg</h1>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#Experience">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="background">
+    <section id="introduction">
+        <div id="intro-content">
+            <h1>Aspiring Programmer</h1>
+            <h2>This is my first try at a personal portfolio website.</h2>
+            <p>I mainly focus on back-end programming, <br>but dont mind dabbling in front-end from time to time.</p>
+            <div id="text-animation">
+                <div id="animated-text"></div>
+            </div>
+        </div>
+        <div id="intro-image">
+            <img src="Images/istockphoto.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="about-me-image">
+            <img src="Images/male_profile_stock.png" alt="">
+        </div>
+        <div id="about-content">
+            <h1>About Me</h1>
+            <p>Greetings! I'm Christian, transitioning from a successful career in masonry to the world of back-end development.
+                As a Data Technician student, I am honing my programming skills, inspired by my love for video games and strategic thinking.
+                My experience running my own company and leading teams has equipped me with strong organizational and collaborative skills.
+                I enjoy working both independently and as part of a group, always striving to learn something new.
+                My focus is on creating seamless, user-friendly applications that deliver real value.</p>
+        </div>
+    </section>
+
+    <section id="Experience">
+        <h1>Experience</h1>
+        <div class="row">
+            <div class="exp-container" id="previous-jobs">
+                <h2>Previous jobs</h2>
+                <div class="exp-box" id="masonry">
+                    <h3>Masonry</h3>
+                    <p>As a mason, I was responsible for the construction of walls, floors, and other structures using bricks,
+                        concrete, and other materials. I also worked with a team to ensure that projects were completed on time
+                        and within budget.</p>
+                </div>
+                <div class="exp-box" id="company-owner">
+                    <h3>Company Owner</h3>
+                    <p>As the owner of a masonry company, I was responsible for managing all aspects of the business,
+                        including hiring and training employees, overseeing projects,
+                        and ensuring that the company met its financial goals.</p>
+                </div>
+                <div class="exp-box" id="warehouse-manager">
+                    <h3>Warehouse Manager - iPlay.dk</h3>
+                    <p>As a warehouse manager at iPlay.dk, I led a comprehensive optimization of warehouse logistics.
+                        I restructured storage racks to improve movement flow and user-friendliness,
+                        developed a searchable Excel inventory system, and created detailed records of all warehouse components.
+                        This significantly improved efficiency in handling equipment for events and restocking processes.</p>
+                </div>
+                <div class="exp-box" id="student-council-chairman">
+                    <h3>Student Council Chairman - Greve Production School</h3>
+                    <p>As the Student Council Chairman, I implemented initiatives to increase
+                        student influence on school well-being. I successfully lobbied to reduce speed
+                        limits on the school's road from 80 to 60 km/h, acting as a liaison between the school,
+                        municipality, and police. My efforts contributed to the school receiving a state award
+                        for exemplary student-teacher collaboration and achieved record-breaking attendance and
+                        support for the student council.</p>
+                </div>
+            </div>
+            <div class="exp-container">
+                <div class="exp-box" id="languages">
+                    <h2>Languages</h2>
+                    <div class="exp-box-content">
+                        <div class="letterbox" id="c-sharp">
+                            <img src="Images/C%23%20logo.png" alt="C#">
+                            <h3>C#</h3>
+                        </div>
+                        <div class="letterbox" id="js">
+                            <img src="Images/JS%20logo.png" alt="JS">
+                            <h3>JS</h3>
+                        </div>
+                        <div class="letterbox" id="html">
+                            <img src="Images/HTML%20logo.png" alt="HTML">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="letterbox" id="css">
+                            <img src="Images/css%20logo.png" alt="CSS">
+                            <h3>CSS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="exp-box" id="frameworks">
+                    <h2>Frameworks</h2>
+                    <div class="exp-box-content">
+                        <div class="letterbox" id="dotnet">
+                            <img src="Images/Dotnet%20logo.png" alt=".NET">
+                            <h3>.NET</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="exp-box" id="tools">
+                    <h2>Tools</h2>
+                    <div class="exp-box-content">
+                        <div class="letterbox" id="visual-studio">
+                            <img src="Images/Visual%20Studio.png" alt="Visual Studio">
+                            <h3>Visual Studio</h3>
+                        </div>
+                        <div class="letterbox" id="jetbrains">
+                            <img src="Images/JetBrains%20Logo.png" alt="JetBrains">
+                            <h3>JetBrains</h3>
+                        </div>
+                        <div class="letterbox" id="vs code">
+                            <img src="Images/vs%20code%20logo.png" alt="VS Code">
+                            <h3>VS Code</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="row">
+            <div class="contact-container">
+                <div class="contact-box">
+                    <div>
+                        <h2>Get in touch</h2>
+                        <p>Feel free to reach out to me with any questions or opportunities.</p>
+                    </div>
+                    <div>
+                        <h3>Email:</h3>
+                        <p><a href="mailto:Colberg@gmail.com" id="emailto"> Colberg@gmail.com</a></p>
+                    </div>
+                    <div>
+                        <h3>Socials</h3>
+                        <div class="socials">
+                            <a href="https://www.linkedin.com/in/christian-colberg-796260288/"><img src="Images/linkedin.png" alt="LinkedIn"></a>
+                            <a href="https://github.com/Gafion"><img src="Images/github.png" alt="GitHub"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-box">
+                    <h2>Dont wanna use your own email?</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required placeholder="Example@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Subject of your message">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div id="section-indicators"></div>
+    </div>
+    <footer>
+        <p><span>&copy;</span> 2024 Christian Colberg. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
