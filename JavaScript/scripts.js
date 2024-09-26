@@ -1,3 +1,5 @@
+
+/* Scrolling functionality for the website */
 let isScrolling = false;
 
 function handleScroll(event) {
@@ -53,6 +55,8 @@ document.addEventListener('scroll', function() {
     }
 });
 
+
+/* Typing animation for the welcome message */
 const words = ["Hello, World!", "Welcome to my portfolio.", "Enjoy your stay!"];
 let wordIndex = 0;
 let charIndex = 0;
@@ -87,6 +91,8 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(type, delayBetweenWords);
 });
 
+
+/* Section indicators */
 document.addEventListener('DOMContentLoaded', function() {
     const sections = document.querySelectorAll('section');
     const indicatorsContainer = document.getElementById('section-indicators');
@@ -121,6 +127,8 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('resize', updateIndicators);
 });
 
+
+/* Contact form submission */
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contact-form');
 
