@@ -1,13 +1,13 @@
 
 /* Scrolling functionality for the website */
-let isScrolling = false;
+/*let isScrolling = false;
 
 function handleScroll(event) {
     const messageBox = document.getElementById('message');
 
     // Check if the event target is the message box or a child of the message box
     if (messageBox.contains(event.target)) {
-        return; // Allow normal scroll inside the message box
+        return; // Allow normal to scroll inside the message box
     }
 
     event.preventDefault();
@@ -53,7 +53,7 @@ document.addEventListener('scroll', function() {
     } else {
         footer.style.bottom = '-8vh';
     }
-});
+});*/
 
 
 /* Typing animation for the welcome message */
@@ -141,15 +141,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const message = document.getElementById('message').value;
 
         if (name && email && subject && message) {
+            // noinspection JSCheckFunctionSignatures
             emailjs.send("service_hhd20qp", "template_jb364mf", {
                 from_name: name,
                 from_email: email,
                 subject: subject,
                 message: message,
-            }).then(function(response) {
+            }).then(function() {
                 alert('Form submitted successfully!');
                 form.reset();
-            }, function(error) {
+            }, function() {
                 alert('Failed to send email. Please try again later.');
             });
         } else {
